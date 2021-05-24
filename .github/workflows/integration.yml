@@ -21,4 +21,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build aamiralipriject4B21052021.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build aamiraliproject22052021.surge.sh --token ${{ secrets.SURGE_TOKEN }}
