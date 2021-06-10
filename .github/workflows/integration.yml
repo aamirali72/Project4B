@@ -21,8 +21,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-<<<<<<< HEAD
         run: surge /build aamiraliproject22052021.surge.sh --token ${{ secrets.SURGE_TOKEN }}
-=======
-        run: surge ./build bootcamp_react_ziakhan.surge.sh --token ${{ secrets.SURGE_TOKEN }}
->>>>>>> ed57fdf5e1e8fbcd993d38f1fc503452133220b5
